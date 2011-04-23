@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/malata/harmony_gtablet/proprietary/libnvdispmgr_d.so:obj/lib/libnvdispmgr_d.so \
     vendor/malata/harmony_gtablet/proprietary/libnvdispatch_helper.so:obj/lib/libnvdispatch_helper.so \
     vendor/malata/harmony_gtablet/proprietary/libnvomxilclient.so:obj/lib/libnvomxilclient.so \
+    vendor/malata/harmony_gtablet/proprietary/libhwmediarecorder.so:obj/lib/libhwmediarecorder.so \
     vendor/malata/harmony_gtablet/proprietary/libgps.so:obj/lib/libgps.so
 
 # Standard blobs necessary for harmony_gtablet
@@ -198,3 +199,7 @@ PRODUCT_COPY_FILES += \
    vendor/malata/harmony_gtablet/proprietary/libopencore_player.so:system/lib/libopencore_player.so \
    vendor/malata/harmony_gtablet/proprietary/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \
    vendor/malata/harmony_gtablet/proprietary/libopencore_rtsp.so:system/lib/libopencore_rtsp.so
+
+# Stage Fright for harmony_gtablet
+PRODUCT_COPY_FILES += \
+   vendor/malata/harmony_gtablet/proprietary/libstagefrighthw.so:system/lib/libstagefrighthw.so
