@@ -56,8 +56,7 @@ rssisav2g=0x3
 bxa2g=0
 
 # country code
-#ccode=ALL
-ccode=CN
+ccode=ALL
 cctl=0x0
 cckdigfilttype=1
 ofdmdigfilttype=3
